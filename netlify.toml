@@ -1,3 +1,3 @@
 [build]
   functions = "lambda"
-  Command = "netlify run build:lambda"
+  Command = "npm run build:lambda"
