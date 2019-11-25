@@ -1,0 +1,25 @@
+{
+  "name": "three-wishes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petervel/three-wishes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petervel/three-wishes/issues"
+  },
+  "homepage": "https://github.com/petervel/three-wishes#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
+}
